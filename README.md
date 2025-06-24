@@ -35,9 +35,9 @@ VEGA_assistant/
 
 1. Start the program (`main.py`)
 2. Speak into your microphone
-3. The assistant will be actiavated upon hearing the keyword `"VEGA"`
+3. The assistant will be activated upon hearing the keyword `"VEGA"`
 4. Ask questions to the assistant
-5. The assistant transcribes your speech to text
+5. The assistant transcribes your speech into text
 6. Sends your prompt + history to a locally running LLaMA 3.2 model via Ollama
 7. Receives the model’s response and speaks it aloud
 8. Repeats until you say `"exit"`, `"quit"`, or `"bye"`
