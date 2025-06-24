@@ -2,7 +2,7 @@
 
 VEGA is a voice-enabled AI assistant that listens, understands, and responds—powered by a fine-tuned [LLaMA 3.2](https://huggingface.co/unsloth/llama-3.2-3b-bnb-4bit) model with LoRA adapters. It uses speech recognition, contextual memory, and text-to-speech to enable natural spoken conversations. 
 
-> Current version of code is not connected to Huggingface trained model. It uses local llama 3.2 model.
+> Current version of code is not connected to the Huggingface trained model. It uses local llama 3.2 model.
 
 ---
 
