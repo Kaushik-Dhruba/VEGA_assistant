@@ -11,7 +11,7 @@ VEGA is a voice-enabled AI assistant that listens, understands, and responds—p
 - Voice-Controlled: Speak and listen to your assistant using a microphone and speaker
 - Conversational Memory: Tracks previous interactions for coherent replies
 - Offline-Ready: Runs locally using Ollama—no cloud APIs or external calls
-- Custom Personality: Configured to act as "Vega"—helpful and playful
+- Custom Personality: Configure the personality of "Vega"
 
 
 ---
@@ -35,10 +35,12 @@ VEGA_assistant/
 
 1. Start the program (`main.py`)
 2. Speak into your microphone
-3. The assistant transcribes your speech to text
-4. Sends your prompt + history to a locally running LLaMA 3.2 model via Ollama
-5. Receives the model’s response and speaks it aloud
-6. Repeats until you say `"exit"`, `"quit"`, or `"bye"`
+3. The assistant will be actiavated upon hearing the keyword `"vega"`
+4. Ask questions to the assistant
+5. The assistant transcribes your speech to text
+6. Sends your prompt + history to a locally running LLaMA 3.2 model via Ollama
+7. Receives the model’s response and speaks it aloud
+8. Repeats until you say `"exit"`, `"quit"`, or `"bye"`
 
 ---
 
